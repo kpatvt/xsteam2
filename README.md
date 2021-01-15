@@ -16,7 +16,7 @@ Changes:
  * The coefficients for region 5 were updated to match most recent 2012 IAPWS 97 release
  * Iteration counters (max 1000 iterations) added to ensure no infinite loops when calling iterated properties
  * A self-test routine to check that calculated values match reference values in 2012 IAPWS 97 release (They do)
- * All arrays have been hoisted out of the functions so they are created in each function call
+ * All arrays have been hoisted out of the functions so they not are created in each function call
  * If numba is not available, should use the list version
 
 Performance:
