@@ -3891,7 +3891,7 @@ def Surface_Tension_T(T):
 
 
 def self_test(show=False, repeat=1):
-    def dummy(*arg, **kwargs):
+    def dummy(*arg):
         pass
 
     if show:

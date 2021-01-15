@@ -10,6 +10,9 @@ The XLS and .BAS only contain the update to the Region 5 correlation.
 The Python code contains all the new changes
 
 Changes:
+ * Jan 14, 2021
+ * A Javascript version is available, supports all the same features as the Python version.
+ * AND runs on your browser!
  * Jan 13, 2021
  * The conversions to bar and deg_C have been removed, all units are the same as the official specification
  * Equations added for metable vapor Region 2 but must be called directly
