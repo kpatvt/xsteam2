@@ -74,8 +74,8 @@
 // # h_pT	 Enthalpy as a function of pressure and temperature.
 // # h_ps	 Enthalpy as a function of pressure and entropy.
 // # h_px	 Enthalpy as a function of pressure and vapour fraction
-// # h_prho Enthalpy as a function of pressure and density. Observe for low temperatures
-// #       (liquid) this equation has 2 solutions.
+// # h_prho  Enthalpy as a function of pressure and density. Observe for low temperatures (liquid)
+//           this equation has 2 solutions.
 // # h_Tx	 Enthalpy as a function of temperature and vapour fraction
 // #
 // # Specific volume
@@ -4135,6 +4135,3 @@ let xsteam2 = (function() {
         self_test: self_test
     }
 })();
-
-xsteam2.self_test();
-console.log(xsteam2.Tsat_p(101325.0/1e6) - 273.15)

@@ -4171,7 +4171,11 @@ def self_test(show=False, repeat=1):
 
 
 def benchmark():
-    self_test(False, repeat=100)
+    import time
+    t1 = time.time()
+    self_test(False, repeat=1000)
+    t2 = time.time()
+    print('%s took %0.3f seconds' % ('benchmark', (t2 - t1) * 1.0))
 
 
 self_test(show=True)
