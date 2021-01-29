@@ -4178,5 +4178,5 @@ def benchmark():
     print('%s took %0.3f seconds' % ('benchmark', (t2 - t1) * 1.0))
 
 
-self_test(show=True)
+# self_test(show=True)
 # benchmark()

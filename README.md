@@ -4,6 +4,9 @@ XSteam2
 Original Released by Magnus Holmgren for Matlab and Excel:
 <http://xsteam.sourceforge.net> and/or <http://www.x-eng.com>
 
+A online version demonstrating all features is here:
+https://kpatvt.github.io/steamycalc/index.html
+
 Updated version of original XSteam code for properties of water and steam using IAPWS-97 (2012 Update)/IFC-97 
 formulation. Also included are updated XLS files and .BAS files from the original XSteam Code.
 The XLS and .BAS only contain the update to the Region 5 correlation.
